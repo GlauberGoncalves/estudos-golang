@@ -16,7 +16,7 @@ func main() {
 		total = total + notas[i]
 	}
 
-	media = total / 4.0
+	media = total / float64(len(notas))
 
 	fmt.Println("A media é ", media)
 
