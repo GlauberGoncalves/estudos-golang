@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func getNome() (nome, sobrenome string) {
 	nome = "Glauber"
