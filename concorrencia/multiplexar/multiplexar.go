@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/juniorari/html"
+	"github.com/glaubergoncalves/html"
 )
 
 func encaminhar(origem <-chan string, destino chan string) {
